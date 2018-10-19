@@ -65,6 +65,26 @@ function drawLeftEar() {
     endShape();
 }
 
+function drawRightEar() {
+    /* Cancel the default black border around the shape created by vertex. */
+    noStroke();
+
+    /* Over-ride the default RADIANS with DEGREES, as it makes more sense for this example. */
+    angleMode(DEGREES);
+
+    /* Fill the color of the arc with the color set for the ears. */
+    fill(EAR_COLOR);
+
+    /*
+    1. Set the midpoint of the arc to 455, 245.
+    2. Set the arc’s width to EAR_WIDTH.
+    3. Set the arc’s height to EAR_HEIGHT.
+    4. Fill the top half of the arc (180).
+    5. Fill the bottom half of the arc (100).
+     */
+    arc(455, 245, EAR_WIDTH, EAR_HEIGHT, 180, 100);
+}
+
 function setup() {
     /* Set the dimensions of the canvas to the width and height of the image. */
     createCanvas(IMAGE_WIDTH, IMAGE_HEIGHT);
