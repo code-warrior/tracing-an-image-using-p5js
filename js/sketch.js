@@ -3,6 +3,7 @@ const IMAGE_HEIGHT = 576;
 const EYE_COLOR = `#411a1f`;
 const EYE_DIAMETER = 27;
 const NOSE_COLOR = `#c1857a`;
+const NOSE_DIAMETER = 30;
 
 function drawEyes() {
     /* Cancel the default black border around the ellipse. */
