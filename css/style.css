@@ -1,3 +1,9 @@
 body {
    margin: 0;
 }
+
+#defaultCanvas0 {
+   display: block;
+   margin: 40px auto 0;
+   border: 1px solid #ddd;
+}
