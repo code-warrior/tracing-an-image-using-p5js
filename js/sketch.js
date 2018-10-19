@@ -5,6 +5,9 @@ const EYE_DIAMETER = 27;
 const NOSE_COLOR = `#c1857a`;
 const NOSE_DIAMETER = 30;
 const WHISKER_COLOR = `#957968`;
+const EAR_COLOR = `#7b4c44`;
+const EAR_WIDTH = 52;
+const EAR_HEIGHT = 78;
 
 function drawEyes() {
     /* Cancel the default black border around the ellipse. */
