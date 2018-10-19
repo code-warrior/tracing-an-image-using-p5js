@@ -53,4 +53,5 @@ function setup() {
 function draw() {
     drawEyes();
     drawNose();
+    drawWhiskers();
 }
