@@ -102,4 +102,5 @@ function draw() {
     drawEyes();
     drawNose();
     drawWhiskers();
+    drawEars();
 }
