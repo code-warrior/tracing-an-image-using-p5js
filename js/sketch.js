@@ -23,4 +23,5 @@ function setup() {
 }
 
 function draw() {
+    drawEyes();
 }
