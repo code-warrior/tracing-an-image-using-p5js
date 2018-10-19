@@ -68,6 +68,9 @@ function drawLeftEar() {
 function setup() {
     /* Set the dimensions of the canvas to the width and height of the image. */
     createCanvas(IMAGE_WIDTH, IMAGE_HEIGHT);
+
+    /* Cancel the loop on the draw() function. This creates a cleaner drawing. */
+    noLoop();
 }
 
 function draw() {
