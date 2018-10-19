@@ -19,6 +19,17 @@ function drawEyes() {
     ellipse(390, 287, EYE_DIAMETER, EYE_DIAMETER);
 }
 
+function drawNose() {
+    /* Cancel the default black border around the ellipse. */
+    noStroke();
+
+    /* Set a color to fill the ellipse. */
+    fill(NOSE_COLOR);
+
+    /* Draw the nose. */
+    ellipse(310, 365, NOSE_DIAMETER, NOSE_DIAMETER);
+}
+
 function setup() {
     /* Set the dimensions of the canvas to the width and height of the image. */
     createCanvas(IMAGE_WIDTH, IMAGE_HEIGHT);
