@@ -48,6 +48,23 @@ function drawWhiskers() {
     line(346, 359, 423, 375);
 }
 
+function drawLeftEar() {
+    /* Cancel the default black border around the shape created by vertex. */
+    noStroke();
+
+    /* Set a color for the vertex shape.*/
+    fill(EAR_COLOR);
+
+    /* Begin the shape that will be created by the three vertices. */
+    beginShape();
+    vertex(305, 203);
+    vertex(328, 225);
+    vertex(300,245);
+
+    /* End the shape, which is required to complete the shape by the three vertices. */
+    endShape();
+}
+
 function setup() {
     /* Set the dimensions of the canvas to the width and height of the image. */
     createCanvas(IMAGE_WIDTH, IMAGE_HEIGHT);
