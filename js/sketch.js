@@ -31,6 +31,20 @@ function drawNose() {
     ellipse(310, 365, NOSE_DIAMETER, NOSE_DIAMETER);
 }
 
+function drawWhiskers() {
+    stroke(WHISKER_COLOR);
+
+    /* Draw the left set of whiskers. */
+    line(280, 336, 200, 311);
+    line(290, 349, 215, 356);
+    line(280, 359, 200, 375);
+
+    /* Draw the right set of whiskers. */
+    line(366, 336, 481, 311);
+    line(356, 349, 445, 356);
+    line(346, 359, 423, 375);
+}
+
 function setup() {
     /* Set the dimensions of the canvas to the width and height of the image. */
     createCanvas(IMAGE_WIDTH, IMAGE_HEIGHT);
