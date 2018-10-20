@@ -1,3 +1,4 @@
+const BACKGROUND_COLOR = `#eee`;
 const IMAGE_WIDTH = 768;
 const IMAGE_HEIGHT = 576;
 const EYE_COLOR = `#411a1f`;
@@ -93,6 +94,9 @@ function drawEars() {
 function setup() {
     /* Set the dimensions of the canvas to the width and height of the image. */
     createCanvas(IMAGE_WIDTH, IMAGE_HEIGHT);
+
+    /* Set the background color of the canvas. */
+    background(BACKGROUND_COLOR);
 
     /* Cancel the loop on the draw() function. This creates a cleaner drawing. */
     noLoop();
