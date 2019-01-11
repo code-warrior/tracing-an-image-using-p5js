@@ -18,10 +18,10 @@ function drawEyes() {
     fill(EYE_COLOR);
 
     /* Draw the left eye. */
-    ellipse(305, 277, EYE_DIAMETER, EYE_DIAMETER);
+    ellipse(305, 277, EYE_DIAMETER);
 
     /* Draw the right eye. */
-    ellipse(390, 287, EYE_DIAMETER, EYE_DIAMETER);
+    ellipse(390, 287, EYE_DIAMETER);
 }
 
 function drawNose() {
@@ -32,7 +32,7 @@ function drawNose() {
     fill(NOSE_COLOR);
 
     /* Draw the nose. */
-    ellipse(310, 365, NOSE_DIAMETER, NOSE_DIAMETER);
+    ellipse(310, 365, NOSE_DIAMETER);
 }
 
 function drawWhiskers() {
